@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contact-container{
+    padding: 30px 40px;
+    width: 100%;
+    background: #f6f6f6;
+}
+.contact-container .contant{
+    padding: 10px 20px;
+}
+.contact-container .contant h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #010f1c;
+    font-weight: 200;
+}
+.contact-container .contant .form{
+    margin-top: 30px;
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+
+}
+.contact-container .contant .form form{
+    display: flex;
+    flex-direction: column;
+
+}
+.contact-container .contant .form form input{
+    padding: 10px 30px;
+    border: none;
+    background: none;
+    outline: none;
+    margin-left: 35%;
+    border-bottom: 1px solid #9a9a9a;
+    width: 350px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.contact-container .contant .form form textarea{
+    padding: 10px 30px;
+    border: none;
+    background: none;
+    outline: none;
+    margin-left: 35%;
+    border-bottom: 1px solid #9a9a9a;
+    width: 350px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    resize: none;
+}
+.contact-container .contant .form form button{
+    margin-top: 30px;
+    padding: 10px 0px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 35%;
+    background: #010f1c;
+    color: #fff;
+    cursor: pointer;
+
+}
+

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.cartcontainer{
+    padding: 40px 50px;
+    background: #f1f1f1;
+    width: 100%;
+    border-bottom: 1px solid #9a9a9a;
+}
+.cartcontainer .emptycart{
+    margin-left: 40%;
+    margin-top: 30px;
+}
+.cartcontainer .emptycart h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #010f1c;
+}
+.cartcontainer .emptycart .emptycartbtn{
+    margin-left: 70px;
+    padding: 10px 20px;
+    background: #010f1c;
+    text-decoration: none;
+    color: #fff;
+}
+.cartcontainer .contant{
+    width:100%;
+    padding: 20px 30px
+}
+.cartcontainer .contant .cart-item{
+   padding: 20px 30px;
+   display: flex;
+   background: #fff;
+   border-radius: 5px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.cartcontainer .contant .cart-item .img-box{
+    padding: 20px 20px;
+    background: #f1f1f1;
+}
+.cartcontainer .contant .cart-item .img-box img{
+    width: 250px;
+    height: 250px;
+}
+.cartcontainer .contant .cart-item .detail{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+    padding: 20px 30px;
+}
+.cartcontainer .contant .cart-item .detail .info h4{
+    text-transform: uppercase;
+    color: #9a9a9a;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+.cartcontainer .contant .cart-item .detail .info h3{
+    color: #010f1c;
+    font-weight: 200;
+    margin-top: 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.cartcontainer .contant .cart-item .detail .info p{
+    color: #010f1c;
+    margin-top: 10px;
+    letter-spacing: 1px;
+
+}
+.cartcontainer .contant .cart-item .detail .info .qty{
+    margin-top: 10px;
+    display: flex;
+}
+.cartcontainer .contant .cart-item .detail .info .qty .incqty{
+    padding: 10px 10px;
+    font-size: 32px;
+    outline: none;
+    border: none;
+    background: none;
+    color: blue;
+    cursor: pointer;
+}
+.cartcontainer .contant .cart-item .detail .info .qty input{
+    
+    font-size: 22px;
+    outline: none;
+    border: none;
+    background: none;
+    margin-left: 20px;
+    color: #010f1c;
+    width: 50px;
+
+}
+
+.cartcontainer .contant .cart-item .detail .info .qty .decqty{
+    padding: 10px 10px;
+    font-size: 32px;
+    outline: none;
+    border: none;
+    background: none;
+    color: blue;
+    cursor: pointer;
+
+}
+.cartcontainer .contant .cart-item .detail .info .subtotal{
+    color: #010f1c;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.cartcontainer .contant .cart-item .detail .close button{
+    border: none;
+    background: none;
+    outline: none;
+    color: red;
+    font-size: 22px;
+    cursor: pointer;
+}
+.cartcontainer .totalprice{
+    margin-top: 30px;
+    margin-left: 50%;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+
+}
+.cartcontainer .checkout{
+    margin-left: 52%;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: #0989ff;
+    cursor: pointer;
+}
